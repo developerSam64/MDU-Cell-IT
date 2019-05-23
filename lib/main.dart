@@ -28,7 +28,6 @@ class MyApp extends StatelessWidget {
         '/loginScreen':(BuildContext context)=>new HomeApp(),
         '/firstScreen':(BuildContext context)=> new HomePageApp(),
       },
-
       debugShowCheckedModeBanner: false,
     );
   }
